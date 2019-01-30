@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+.wrapper{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 30px;
+    padding-left: 30px;
+    min-height: 100%;
+}
+header{
+    background: #4aaaa5;
+    color: white;
+    width: 350px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 30px;
+    font-weight: bolder;
+    float: left;
+    margin-left: -30px;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+li{
+    float: right;
+    padding: 10px;
+    
+}
+a{
+    color: #777;
+    text-decoration: none;
+}
+li a:hover{
+    color: #4aaaa5;
+}
+#hline{
+    border-bottom: 2px solid #ccc;
+}
+#hborder{
+    border: 1px solid #ddd;
+}
+h1{
+    color: #4aaaa5;
+    background: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#bborder{
+    border: 1px inset #ddd;
+    margin-top: 50px;
+    background: white;
+    margin-bottom: auto;
+    border-radius: 3px;
+}
+#mypic{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border: inset 1px lightgrey;
+    float: left;
+}
+#about{
+    font-family: Arial, 'Helvetica neue', Helvetica, sans-serif;
+    color: #777;
+    background: #fff;
+    line-height: 150%;
+}
+#contact{
+    font-family: Arial, 'Helvetica neue', Helvetica, sans-serif;
+    color: #777;
+    background: #fff;
+    line-height: 1;
+    text-align: left;
+    padding-left : 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+#fpic{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    text-align: center;
+    vertical-align: bottom;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+}
+footer{
+    width: 100%;
+    color: #ddd;
+    font-size: 15px;
+    margin-top: 50px;
+    text-align: center;
+    vertical-align: bottom;
+    border-top: 5px #4aaaa5 solid;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 75px;
+    background: #666;
+}
+body{
+    background-image: url("../images/bg.png");
+    background-size: cover;
+    position: relative;
+    padding-bottom: 100px;
+    min-height: 100%;
+    margin: auto;
+}
+.inputbox{
+    width: 500px;
+    height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4aaaa5;
+    border: 1px darkgrey inset;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.textbox{
+    width: 500px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-left: 10px;
+    box-sizing: border-box;
+    resize: vertical;
+    border-radius: 3px;
+}
+#send{
+    width: 100px;
+    height: 30px;
+    border: inset 1px darkgray;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    vertical-align: center;
+    color: #4aaaa5;
+    border-radius: 3px;
+}
+input[type=submit]:hover{
+    cursor: crosshair;
+    background: lightgrey;
+}
+#portfolio{
+    padding: 50px;
+    text-align: center;
+}
+.portlink{
+    position: relative;
+    text-align: center;
+}
+#portpic{
+    width: 300px;
+    height: 300px;
+    border: inset 2px lightgray;
+    border-radius: 10px;
+}
+#label{
+    width: 300px;
+    height: 50px;
+    color: whitesmoke;
+    background: #4aaaa5;
+    opacity: 0.9;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bolder;
+}
+table{
+    width:100%;
+}
+td{
+    padding: 20px;
+}

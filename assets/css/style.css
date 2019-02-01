@@ -18,7 +18,7 @@ header{
     width: 350px;
     text-align: center;
     font-size: 40px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'ZCOOL KuaiLe', cursive;
     padding: 30px;
     font-weight: bolder;
     float: left;
@@ -29,6 +29,7 @@ ul{
     overflow: hidden;
     padding-top: 40px;
     padding-bottom: 10px;
+    font-family: 'KoHo', sans-serif;
 }
 li{
     float: right;
@@ -51,7 +52,7 @@ li a:hover{
 h1{
     color: #4aaaa5;
     background: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'ZCOOL KuaiLe', cursive;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -72,13 +73,13 @@ h1{
     float: left;
 }
 #about{
-    font-family: Arial, 'Helvetica neue', Helvetica, sans-serif;
+    font-family: 'KoHo', sans-serif;
     color: #777;
     background: #fff;
     line-height: 150%;
 }
 #contact{
-    font-family: Arial, 'Helvetica neue', Helvetica, sans-serif;
+    font-family: 'KoHo', sans-serif;
     color: #777;
     background: #fff;
     line-height: 1;
@@ -125,7 +126,7 @@ body{
 .inputbox{
     width: 500px;
     height: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'KoHo', sans-serif;
     color: #4aaaa5;
     border: 1px darkgrey inset;
     margin-top: 10px;
@@ -140,7 +141,7 @@ body{
     margin-top: 10px;
     margin-bottom: 20px;
     color: #4aaaa5;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'KoHo', sans-serif;
     text-align: left;
     padding-left: 10px;
     box-sizing: border-box;
@@ -151,7 +152,7 @@ body{
     width: 100px;
     height: 30px;
     border: inset 1px darkgray;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'ZCOOL KuaiLe', cursive;
     font-size: 20px;
     vertical-align: center;
     color: #4aaaa5;
@@ -185,7 +186,7 @@ input[type=submit]:hover{
     bottom: 30px;
     left: 50%;
     transform: translate(-50%);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'KoHo', sans-serif;
     font-size: 20px;
     padding: 10px;
     font-weight: bolder;
